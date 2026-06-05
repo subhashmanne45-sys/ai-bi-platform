@@ -1,0 +1,41 @@
+# Environment
+.env
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Data files (regenerate with run.py generate)
+data/raw/*.csv
+data/processed/
+
+# Logs
+logs/
+
+# Reports
+reports/*.pdf
+reports/*.html
+
+# Notebooks
+notebooks/.ipynb_checkpoints/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Airflow
+orchestration/logs/
+orchestration/plugins/
+airflow.db
+
+# Docker
+docker/volumes/
